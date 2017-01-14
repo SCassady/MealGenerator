@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Meal Generator</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <script src="js/main.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="main">
+
+      <header>
+        <h1>Meal Generator</h1>
+      </header>
+
+      <div class="intro">
+        <p>This is a meal generator. Select your preferences and click "Generate"
+          to generate meals for the week.</p>
+      </div>
+
+      <hr>
+
+      <div class="preferences">
+        <ul class="options">
+          <li><span>No meat</span><input type="checkbox" name="noMeat" value="isNoMeat" id="noMeat"></li>
+          <li><span>No fish</span><input type="checkbox" name="eggs" value="isNoFish" id="noFish"></li>
+          <li><span>No gluten</span><input type="checkbox" name="gluten" value="isNoGluten" id="noGluten"></li>
+          <li><span>No eggs</span><input type="checkbox" name="eggs" value="isNoEggs" id="noEggs"></li>
+          <li><span>No dairy</span><input type="checkbox" name="dairy" value="isNoDairy" id="noDairy"></li>
+          <li><span>Not acidic</span><input type="checkbox" name="acidic" value="notAcidic" id="notAcidic"></li>
+          <li><span>Not fatty</span><input type="checkbox" name="fatty" value="notFatty" id="notFatty"></li>
+        </ul>
+        <div id = "button">
+          <input type="button" name="generate" value="Generate" id="generateButton">
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="scheduleContainer">
+        <table class="scheduleTable">
+          <tr>
+            <th></th>
+            <th class="topLabel">Monday</th>
+            <th class="topLabel">Tuesday</th>
+            <th class="topLabel">Wednesday</th>
+            <th class="topLabel">Thursday</th>
+            <th class="topLabel">Friday</th>
+            <th class="topLabel">Saturday</th>
+            <th class="topLabel">Sunday</th>
+          </tr>
+          <tr>
+            <th class="sideLabel">Breakfast</th>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+            <td class="breakfast"> </td>
+          </tr>
+          <tr>
+            <th class="sideLabel">Lunch</th>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+            <td class="lunch"> </td>
+          </tr>
+          <tr>
+            <th class="sideLabel">Snack</th>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+            <td class="snack"> </td>
+          </tr>
+          <tr>
+            <th class="sideLabel">Dinner</th>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+            <td class="dinner"> </td>
+          </tr>
+          <tr>
+            <th class="sideLabel">Dessert</th>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+            <td class="dessert"> </td>
+          </tr>
+        </table>
+
+      </div>
+
+      <hr>
+
+      <footer>
+        <span>This is the footer.</span>
+      </footer>
+
+    </div>
+
+  </body>
+
+</html>

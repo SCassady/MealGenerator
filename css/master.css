@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  background-color: 	#cef;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+p, span, td, th {
+  font-family: 'Vollkorn', serif;
+}
+
+hr {
+  border: none;
+  border-top: medium double gray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: 	#bdf5bd;
+  padding-bottom: .25em;
+  color: gray;
+  /*border: 4px dashed white;*/
+}
+
+.main {
+  text-align: center;
+  background-color: BlanchedAlmond;
+  width: 960px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  margin-top: 2em;
+}
+
+.radio {
+}
+
+.scheduleTable {
+  width: 90%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px ridge gray;
+  border-collapse: collapse;
+  padding: 0;
+  margin-top: 3em;
+}
+
+td {
+  border: 1px solid gray;
+  padding: .5em;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  /*background-color: white;*/
+}
+
+th {
+  border: 1px solid gray;
+  padding: .5em;
+  border-bottom-width: 3px;
+
+  /*background-color: #cef;*/
+  /*border-top-width: 3px;
+  border-bottom-width: 3px;*/
+}
+
+.scheduleContainer {
+  margin-bottom: 1em;
+}
+
+li {
+  display: inline;
+  margin-right: 2em;
+}
+
+/*.topLabel {
+  border-bottom-style: double;
+}*/
+
+/*.sideLabel {
+  border-right-width: 2px;
+
+}*/
+
+#generateButton {
+  font-size: 24px;
+  width: 10em;
+  max-width: 70%;
+  height: 2em;
+}
